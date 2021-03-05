@@ -12,10 +12,10 @@ public class MoodAnalyzer {
         this.message = message;
     }
 
-    /**
+    
      * Method To Analyze Mood
      * @return Mood
-     */
+     //
     public String analyzeMood() {
         try {
             return message.contains("Sad") ? "SAD" : "HAPPY";

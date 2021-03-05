@@ -15,7 +15,7 @@ public class MoodAnalyzer {
     
      * Method To Analyze Mood
      * @return Mood
-     //
+     //Handle Exception if User Provides Invalid Mood
     public String analyzeMood() {
         try {
             return message.contains("Sad") ? "SAD" : "HAPPY";
